@@ -23,6 +23,9 @@ def __init__(self, appIdKey='D136F3CA19FC87ADBC8514E10325B1000184218304C8DB66713
 """init iCloud """
 self.auth_url = "https://daw2.apple.com/…/WebObje…/DSAuthWeb.woa/wa/clientDAW?" + \
 "format=plist&appIdKey=" + appIdKey + "&appleId=%s&password=%s"
+
+#  https://daw2.apple.com/cgi-bin/WebObjects/DSAuthWeb.woa/wa/clientDAW?format=plist&appIdKey=
+
 self.proxy = proxy
 self.debug = debug
 
