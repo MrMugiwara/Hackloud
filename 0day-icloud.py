@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-# iCloud Bruteforce 0day
+# iCloud Bruteforce Fucking Access
 
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from Queue import Queue
